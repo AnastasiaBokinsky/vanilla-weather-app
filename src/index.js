@@ -37,11 +37,11 @@ function showTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute("alt", response.data.weather[0].description);
-  
+
+  iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`
   );
-  iconElement.setAttribute(
 }
 let apiKey = "3a65b7a336c78bcfe61bdbf873b77706";
 let city = "New York";
