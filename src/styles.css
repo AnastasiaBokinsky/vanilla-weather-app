@@ -68,10 +68,7 @@ li:first-letter {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
-#celsius-link,
-#fahrenheit-link {
-  text-decoration: none;
-}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
